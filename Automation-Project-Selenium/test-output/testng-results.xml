@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31026" started-at="2018-01-12T19:38:15Z" finished-at="2018-01-12T19:38:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31026" started-at="2018-01-12T19:38:15Z" finished-at="2018-01-12T19:38:46Z">
+      <class name="Priyajit_Operation.Execution_Controller">
+        <test-method status="PASS" signature="Execution_Start()[pri:0, instance:Priyajit_Operation.Execution_Controller@91161c7]" name="Execution_Start" duration-ms="30989" started-at="2018-01-13T01:08:15Z" finished-at="2018-01-13T01:08:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Execution_Start -->
+        <test-method status="PASS" signature="Test()[pri:0, instance:Priyajit_Operation.Execution_Controller@91161c7]" name="Test" duration-ms="9" started-at="2018-01-13T01:08:46Z" finished-at="2018-01-13T01:08:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- Priyajit_Operation.Execution_Controller -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
