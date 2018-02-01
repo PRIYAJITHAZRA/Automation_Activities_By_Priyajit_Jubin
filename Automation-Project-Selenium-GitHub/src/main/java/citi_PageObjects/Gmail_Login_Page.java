@@ -25,12 +25,12 @@ import citi_Utilities.*;
 
 public class Gmail_Login_Page
 {
-	static Property_Read PR= new Property_Read();
+	static Property_and_Text_File_Read PR= new Property_and_Text_File_Read();
 	//static WebDriver Driver = new ChromeDriver();
 	static WebDriver Driver = new FirefoxDriver();
 	public static void Page_Loader()throws CustomException
 	{
-		Property_Read PR= new Property_Read();
+		Property_and_Text_File_Read PR= new Property_and_Text_File_Read();
 	    Driver.get(PR.Read_Property_File("URL"));
 	}
 	

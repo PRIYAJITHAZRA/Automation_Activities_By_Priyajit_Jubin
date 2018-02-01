@@ -2,13 +2,14 @@ package citi_Utilities;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Properties;
+import java.util.stream.Collectors;
 
-public class Property_Read {
+public class Property_and_Text_File_Read {
 //This is responsible to read the Property file
-	
-	
- public String Read_Property_File(String Key)
+	 public String Read_Property_File(String Key)
 	{
 		Properties Pro = new Properties();
 		String Value = null;
@@ -24,5 +25,13 @@ public class Property_Read {
 		}
 		return Value;
 		}
+ //To read Text file 
+ public String Text_File_Reader() throws IOException
+ {
+	 String contents = Files.lines(Paths.get("c:\\textfile.txt")).collect(Collectors.joining("\n"));
+     return contents;
+ 
+ }
+ 
 	
 }
