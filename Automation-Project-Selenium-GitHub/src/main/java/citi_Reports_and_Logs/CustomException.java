@@ -1,5 +1,5 @@
-package Reports_Logs;
-import Reports_Logs.*;
+package citi_Reports_and_Logs;
+import citi_Reports_and_Logs.*;
 public class CustomException extends Exception{
 
 	CustomException(String S)
@@ -8,6 +8,6 @@ public class CustomException extends Exception{
 	}
 	public void Print_Exception()
 	{
-		Reports_Logs.ReportAndLog.SetLog("Exception Occured During runtime");;
+		citi_Reports_and_Logs.ReportAndLog.SetLog("Exception Occured During runtime");;
 	}
 }

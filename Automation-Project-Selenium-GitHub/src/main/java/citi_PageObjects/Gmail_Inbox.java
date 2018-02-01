@@ -1,7 +1,7 @@
 /**
  * 
  */
-package Priyajit_Page_Objects;
+package citi_PageObjects;
 import java.io.File;
 
 import org.openqa.selenium.WebDriver;
@@ -9,10 +9,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import citi_Utilities.*;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.By.ByXPath;
-
-import Resource_Reader.*;
 
 /**
  * @author Priyajit

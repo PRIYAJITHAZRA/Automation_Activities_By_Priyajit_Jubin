@@ -1,14 +1,14 @@
 /**
  * 
  */
-package Priyajit_Operation;
+package citi_Operation;
 import java.io.IOException;
 import java.lang.reflect.*;
 import java.util.*;
 
 import org.testng.annotations.Test;
 
-import Resource_Reader.*;
+import citi_Utilities.*;
 /**
  * @author Priyajit
  *
@@ -33,7 +33,7 @@ void Execution_Start() throws IOException, ClassNotFoundException, IllegalAccess
 	Set Test_Config_Set =(Set)Collections.synchronizedMap(Test_Config).entrySet();
 	Iterator itr= Test_Config_Set.iterator();
 	Class Get_Methods= Class.forName("Priyajit_Operation.Method_operator");
-	Method_operator method_Operator=new Priyajit_Operation.Method_operator();
+	step_Defination method_Operator=new citi_Operation.step_Defination();
 	while(itr.hasNext())
 	{
 		if(itr.hasNext()==true)

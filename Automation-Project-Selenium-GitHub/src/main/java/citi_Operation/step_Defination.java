@@ -1,18 +1,19 @@
-package Priyajit_Operation;
+package citi_Operation;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
 import org.testng.annotations.Test;
-import Priyajit_Page_Objects.*;
-import Reports_Logs.CustomException;
+
+import citi_PageObjects.*;
+import citi_Reports_and_Logs.CustomException;
 import cucumber.*;
 import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class Method_operator
+public class step_Defination
 {	//static Gmail_Login_Page Log_in_Page = new Gmail_Login_Page();
 	 //Gmail_Inbox inbox = new Gmail_Inbox();
 	 @Given("^Pacs 008 file uploaded via SOAP$")

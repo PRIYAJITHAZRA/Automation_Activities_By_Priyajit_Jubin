@@ -1,7 +1,7 @@
 /**
  * 
  */
-package Resource_Reader;
+package citi_Utilities;
 
 import java.io.File;
 import java.io.FileInputStream;

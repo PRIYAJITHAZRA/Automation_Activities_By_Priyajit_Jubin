@@ -1,4 +1,4 @@
-package Priyajit_Page_Objects;
+package citi_PageObjects;
 
 import java.io.File;
 import java.sql.DriverAction;
@@ -20,9 +20,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.gargoylesoftware.htmlunit.ElementNotFoundException;
 
-import Reports_Logs.*;
-import Reports_Logs.ReportAndLog;
-import Resource_Reader.*;
+import citi_Reports_and_Logs.*;
+import citi_Utilities.*;
 
 public class Gmail_Login_Page
 {
