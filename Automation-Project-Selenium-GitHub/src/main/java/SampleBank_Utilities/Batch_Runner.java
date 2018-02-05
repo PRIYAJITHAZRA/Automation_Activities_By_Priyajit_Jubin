@@ -1,7 +1,7 @@
 /**
  * 
  */
-package citi_Utilities;
+package SampleBank_Utilities;
 
 import java.io.File;
 import java.io.OutputStreamWriter;

@@ -1,4 +1,4 @@
-package citi_Operation;
+package SampleBank_Operation;
 import org.testng.ITestContext;		
 import org.testng.ITestListener;		
 import org.testng.ITestResult;

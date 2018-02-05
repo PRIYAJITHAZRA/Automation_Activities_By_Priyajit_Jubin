@@ -1,7 +1,7 @@
 /**
  * 
  */
-package citi_Utilities;
+package SampleBank_Utilities;
 
 /**
  * @author Priyajit

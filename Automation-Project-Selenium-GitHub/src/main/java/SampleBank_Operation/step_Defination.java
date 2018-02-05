@@ -1,68 +1,64 @@
-package citi_Operation;
+package SampleBank_Operation;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
 import org.testng.annotations.Test;
 
-import citi_PageObjects.*;
-import citi_Reports_and_Logs.CustomException;
+import com.cucumber.listener.Reporter;
+
+import SampleBank_PageObjects.*;
+import SampleBank_Reports_and_Logs.CustomException;
 import cucumber.*;
-import cucumber.api.PendingException;
+import com.cucumber.listener.Reporter;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class step_Defination
-{	//static Gmail_Login_Page Log_in_Page = new Gmail_Login_Page();
-	 //Gmail_Inbox inbox = new Gmail_Inbox();
-	 @Given("^Pacs 008 file uploaded via SOAP$")
-	 public void Sucessful_Application_Login() throws Throwable {
-	/*try	   
-	
-	{
+{	static samplePage_A Log_in_Page = new samplePage_A();
+	 samplePage_B inbox = new samplePage_B();
+	 @Given("^Operation_1$")
+	 public void Sucessful_Application_Login() throws Exception {
+
+
 		Log_in_Page.Page_Loader();
 		Log_in_Page.Set_User_Name();
 		Log_in_Page.Set_Password();
 		Log_in_Page.Click_Login_Button();
 		
-	}
-catch (CustomException e) {
-		// TODO Auto-generated catch block
-		e.Print_Exception();
-	}
-	*/
-	System.out.println("Test1");
+
 	
 }
-	 @When("GPP receives the Pacs008 file")	 
+	 @When("^Operation_2$")	 
 public void Gmail_page_not_loaded_in_Firefox_Browser( )
 {
-System.out.println("Dummy ");
+		 int X =1/0;
 }
-	 @Then("^Validate the payment instruction$")
+	 @Then("^Operation_3$")
 	 public void Gmail_page_not_loaded_in_Firefox_Browser_Test( )
 	 {
-	 System.out.println("Dummy ");
+	 
 	 }
 	 
-	 @Given ("^Pacs 008 file uploaded via MQ Simulator$")
+	 @Given ("^Operation_4$")
 	 public void Scenario_To_Test_Pacs008_Collection()
 	 {
 		 System.out.println("Test6");
 	 }
 	 
-	 @When("^GPP receives from MQ the Pacs008 file$")
+	 @When("^Operation_5$")
 	 public void Scenario_To_Test_Pacs008_Collection_Via_MQ()
 	 {
 		 System.out.println("Test3");
 	 }
-	 @Then("^Validate the payment instruction received from MQ$")
+	 @Then("^Operation_6$")
 	 public void Scenario_To_Test_Pacs008_Collection_Via_MQ_2()
 	 {
 		 System.out.println("Test9");
 	 }
 }
+
 
 
 //public class Entry_Point extends JUnitTestClass {

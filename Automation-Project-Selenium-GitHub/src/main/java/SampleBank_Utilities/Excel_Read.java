@@ -1,7 +1,7 @@
 /**
  * 
  */
-package citi_Utilities;
+package SampleBank_Utilities;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -30,6 +30,11 @@ public class Excel_Read {
 	ClassLoader classLoader = getClass().getClassLoader();
     File file = new File(classLoader.getResource("Test-Data-and-Regulator.xlsx").getFile());
 //Method to build the hashmap from excel data sheet 
+    
+    public File Return_XML_File()
+    {
+    	return new File(classLoader.getResource("Extent_Config.xml").getFile());
+    }
 	@SuppressWarnings("finally")
 	private HashMap<String, List<String>>  getTestConFig_Map() throws IOException
 	{	//Method to extract test case name and test steps.

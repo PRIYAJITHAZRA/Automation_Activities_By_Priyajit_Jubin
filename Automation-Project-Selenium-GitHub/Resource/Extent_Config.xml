@@ -15,8 +15,8 @@
     
     <!-- report name - displayed at top-nav -->
     <reportName>
-    Citi - Cucumber Report <![CDATA[
-                <img src='G:\Priyajit-JAVA-Project-Work\Selenium-End-End-Fresh-Project\Resource\Automated-Report-Image/Citi.png' /> ]]>
+    SampleBank- Cucumber Report <![CDATA[
+          ]]>
         
     </reportName>
     

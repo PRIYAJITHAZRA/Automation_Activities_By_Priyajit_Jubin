@@ -1,4 +1,4 @@
-package citi_Utilities;
+package SampleBank_Utilities;
 
 import java.io.IOException;
 import java.io.InputStream;

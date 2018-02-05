@@ -1,12 +1,22 @@
 #Author: Priyajit Hazra
 @Sanity
-Feature: Sanity testing of GPP Application with pacs008-Collection.
+Feature: Sanity testing of Sample Application with Sample-Collection.
 I want to use this template for my feature file
-Scenario: Test To Check whether  Pacs008 Collection request processed sucessfully in GPP.
-Given Pacs 008 file uploaded via SOAP
-When GPP receives the Pacs008 file
-Then Validate the payment instruction
-Scenario: Test To Check whether  Pacs008 Collection request processed sucessfully in GPP via MQ simulator
-Given Pacs 008 file uploaded via MQ Simulator
-When GPP receives from MQ the Pacs008 file
-Then Validate the payment instruction received from MQ
+@Scenario_Set1
+Scenario: Test To Check whether  Sample Collection request processed sucessfully in Sample Applicatio.
+Given Operation_1
+When Operation_2
+Then Operation_3
+Scenario: Test To Check whether  Sample Collection request processed sucessfully in Sample Application via MQ simulator
+Given Operation_4
+When Operation_5
+Then Operation_6
+@Scenario_Set2
+Scenario: Test To Check whether Incoming Collection request processed sucessfully in Sample Application.
+Given Operation_1
+When Operation_2
+Then Operation_3
+Scenario: Test To Check whether Incoming Monthly Collection request processed sucessfully in Sample Application.
+Given Operation_4
+When Operation_5
+Then Operation_6

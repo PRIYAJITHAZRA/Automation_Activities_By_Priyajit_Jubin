@@ -1,7 +1,7 @@
 /**
  * 
  */
-package citi_Reports_and_Logs;
+package SampleBank_Reports_and_Logs;
 
 /**
  * @author Priyajit

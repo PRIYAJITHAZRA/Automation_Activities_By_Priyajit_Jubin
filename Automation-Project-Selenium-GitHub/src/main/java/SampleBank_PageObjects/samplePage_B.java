@@ -1,7 +1,7 @@
 /**
  * 
  */
-package citi_PageObjects;
+package SampleBank_PageObjects;
 import java.io.File;
 
 import org.openqa.selenium.WebDriver;
@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import citi_Utilities.*;
+import SampleBank_Utilities.*;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.By.ByXPath;
@@ -19,7 +19,7 @@ import org.openqa.selenium.By.ByXPath;
  * @author Priyajit
  *
  */
-public class Gmail_Inbox extends Gmail_Login_Page {
+public class samplePage_B extends samplePage_A {
 	
 	public static void delete_operation()
 	{
