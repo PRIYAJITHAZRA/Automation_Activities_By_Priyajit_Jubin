@@ -25,7 +25,7 @@ public class CucumberCaller {
 	        Reporter.loadXMLConfig(Ex.Return_XML_File());
 	        Reporter.setSystemInfo("user", System.getProperty("user.name"));
 	        Reporter.setSystemInfo("os", "Windows-10");
-	        Reporter.setTestRunnerOutput("Sample test runner output message");
+	        Reporter.setTestRunnerOutput("Sample test runner output  g o=``  message");
 	        Reporter.addScenarioLog("Test");
 	        
 	    }
